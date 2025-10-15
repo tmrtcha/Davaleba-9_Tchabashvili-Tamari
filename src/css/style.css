@@ -44,14 +44,6 @@ header li a{
 	color: #2E7AF4;
 }
 
-button{
-	color: white;
-	background-color: #2E7AF4;
-	border: none;
-	padding: 20.5px 12px;
-	border-radius: 10px;
-}
-
 .slider{
 	padding-top: 90px;
 }
@@ -74,4 +66,129 @@ footer a, p{
 
 .social-media img{
 	width: 36px;
+}
+
+footer {
+  background-color: #151d2d;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-logo svg {
+  height: 48px;
+  width: auto;
+}
+
+.address {
+  display: block;
+  margin-top: 10px;
+  max-width: 250px;
+  line-height: 1.6;
+}
+
+.company ul,
+.legal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.company ul li:first-child,
+.legal ul li:first-child {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.company ul li,
+.legal ul li{
+  margin-bottom: 8px;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-media p{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.social-media a img{
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+  transition: opacity 0.3s;
+}
+
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.block{
+	display: block;
+}
+
+.get-in-touch{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.get-in-touch h3{
+  font-weight: 600;
+  color: white;
+  font-size: 16px;
+}
+
+.get-in-touch input{
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+}
+
+button{
+  padding: 12px 20px;
+  background-color: #2E7AF4;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #255ecf;
+}
+
+.social-media a img:hover{
+  opacity: 0.7;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
